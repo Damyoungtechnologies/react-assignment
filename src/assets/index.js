@@ -1,0 +1,14 @@
+export {default as AiImage} from './ai.png';
+export {default as Atlassian} from './atlassian.png';
+export {default as Blog01Image} from './blog01.png';
+export {default as Blog02Image} from './blog02.png';
+export {default as Blog03Image} from './blog03.png';
+export {default as Blog04Image} from './blog04.png';
+export {default as Blog05Image} from './blog05.png';
+export {default as OpenAiImage} from './logo.png';
+export {default as LogoSvg} from './logo.svg';
+export {default as VisitorsImage} from './people.png';
+export {default as PossibiltyImage} from './possibility.png';
+export {default as ShopifyImage} from './shopify.png';
+export {default as SlackImage} from './slack.png';
+export {default as HeaderLogo} from './gpt3.png';
