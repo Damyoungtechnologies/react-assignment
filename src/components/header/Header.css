@@ -3,8 +3,31 @@
     margin: 0;
 }
 .header{
-    padding: 0.6rem 1rem;
+    padding: 2rem 4.5rem;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background: linear-gradient(90deg, rgb(1,36,75) 0%, rgb(3,16,32) 100%);
+    /* background-color: linear-gradient(to right, red, blue); */
+    box-sizing: border-box;
+}
+.header__links{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.header__links a, p{
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.header__links img{
+    width: 4rem;
+}
+.header .signup{
+    background-color: #FF4820;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
 }

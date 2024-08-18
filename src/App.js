@@ -1,13 +1,12 @@
 import './App.css';
-import {FirstRow, SecondRow, ThirdRow, FourthRow} from './containers';
-
+// import {FirstRow, SecondRow, ThirdRow, FourthRow} from './containers';
+import {Header, Hero} from './components';
 function App() {
   return (
     <div className="App">
-      <FirstRow />
-      <SecondRow />
-      <ThirdRow />
-      <FourthRow />
+      <Header/>
+      <Hero />
+      
       
     </div>
   );
